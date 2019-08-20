@@ -32,7 +32,7 @@
   "devDependencies": {
     "fs-extra": "^7.0.1",
     "mocha": "*",
-    "ref-array": "lxe/ref-array.git#3b25c13e25c30c813128ee0d43f957d6bf605417"
+    "ref-array": "git+https://github.com/nvedamurthy/ref-array.git#d48fc1a63673c435db4a023bc87e1865d45507d4"
   },
   "scripts": {
     "test": "node-gyp rebuild --directory test && mocha -gc --reporter spec"
